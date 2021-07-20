@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cstyle.css">
+    <link rel = "icon" href = "images/logo.png" type = "image/x-icon">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="left">
+                &nbsp;&nbsp;
+                <img id ="logo" src="images/sparks.png" alt="">&nbsp;&nbsp;&nbsp;
+                <div class="brand">The Blind School</div>
+            </div>
+            <div class="right">
+                <a href="index.html"><button>Home</button></a>
+                <a href="about.html"><button>About Us</button></a>
+                <a href="contact.html"><button>Contact Us</button></a>
+            </div>
+        </nav>
+        <br><br>
+        <div class="banner">
+            <div class="address">
+                <h1>Address:</h1>
+                <p>Thalaghattapura, Bangalore</p>
+                <p>560062</p>
+            </div>
+            <div class="email">
+                <h1>Email:</h1>
+                <p>sunethra1690@gmail.com</p>
+            </div>
+            <div class="phno">
+                <h1>Contact No.:</h1>
+                <p>+91 9110464308</p>
+            </div>
+        </div>
+
+        <div class="donerinfo">
+            <h1>Fill in the details</h1>
+            <input type="text" placeholder="Email..."><br><br>
+            <input type="text" placeholder="Contact No..."><br><br>
+            <input id="msg" type="text" placeholder="Your Message to Us..."><br><br>
+            <button id="submit" onclick="myFunction()">Submit</button>
+        </div>
+    </div>
+    <script>
+        document.getElementById("submit").addEventListener("click", myFunction);
+        function myFunction() {
+        //document.getElementById("submit").innerHTML = "Details Submitted";
+        window.alert("Details Submitted! Thank you.")
+        }
+    </script>
+</body>
+</html>

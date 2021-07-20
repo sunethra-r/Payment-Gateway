@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+body{
+    background-color:rgb(221, 220, 214);
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    display: flex;
+    background-color: rgb(39, 14, 85);
+    border-radius: 15px;
+    color: white;
+}
+#logo{
+    height: 40px;
+}
+.left{
+    flex: 50%;
+    text-align: left;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    padding-top: 10px;
+    padding-inline-start: 10px;
+}
+.right{
+    flex: 50%;
+    text-align: right;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-inline-end: 10px;
+    font-size: 20px;
+}
+.brand{
+    font-size: 23px;
+}
+button{
+    height: 100%;
+    width: 20%;
+    background-color:ghostwhite;
+    border-radius: 10px;
+    color: rgb(39, 14, 85);
+}
+button:hover{
+    cursor: pointer;
+}
+.banner{
+    display: flex;
+    text-align: center;
+    background-color: rgb(39, 14, 85);
+    padding-inline-start: 10%;
+    padding-inline-end: 10%;
+    border-radius: 15px;
+    height: 250px;
+}
+.address{
+    flex: 30%;
+    border-radius: 15px;
+    background-color: ghostwhite;
+    margin: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    transition: transform .3s;
+}
+.address:hover{
+    transform: scale(1.1);
+}
+.email{
+    flex: 30%;
+    border-radius: 15px;
+    background-color: ghostwhite;
+    margin: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    transition: transform .3s;
+}
+.email:hover{
+    transform: scale(1.1);
+}
+.phno{
+    flex: 30%;
+    border-radius: 15px;
+    background-color: ghostwhite;
+    margin: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    transition: transform .3s;
+}
+.phno:hover{
+    transform: scale(1.1);
+}
+.donerinfo{
+    text-align: center;
+    padding-bottom: 10px;
+}
+input{
+    height: 40px;
+    width: 800px;
+    border-radius: 10px;
+    background-color: ghostwhite;
+}
+#msg{
+    height: 140px;
+}
+#submit{
+    height: 40px;
+    color: ghostwhite;
+    background-color: rgb(39, 14, 85);
+    border-radius:2px;
+}

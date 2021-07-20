@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+body{
+    
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(images/beech.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    background-color:rgb(39, 14, 85);
+    border-radius: 15px;
+    color: white;
+}
+#logo{
+    height: 40px;
+}
+.left{
+    flex: 50%;
+    text-align: left;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    padding-top: 10px;
+    padding-inline-start: 10px;
+}
+.right{
+    flex: 50%;
+    text-align: right;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-inline-end: 10px;
+    font-size: 20px;
+}
+.brand{
+    font-size: 23px;
+}
+button{
+    height: 100%;
+    width: 20%;
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px;
+    color: rgb(39, 14, 85);
+}
+button:hover{
+    cursor: pointer;
+}
+.intro{
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.razorpay-embed-btn{
+    margin-top: 3%;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 6%;
+    border-radius: 15px;
+    background-color:rgb(255, 255, 255);
+    transition: transform .4s;
+    background-image: url(images/light.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.razorpay-embed-btn:hover{
+    transform: scale(1.1);
+}
